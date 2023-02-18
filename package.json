@@ -4,6 +4,7 @@
   "description": "Cloudinary Express demo",
   "main": "server.js",
   "scripts": {
+    "build": "npm i && npm build",
     "debug": "./node_modules/.bin/supervisor -e 'js|ejs|node' server.js",
     "start": "node server.js"
   },
